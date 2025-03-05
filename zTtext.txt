@@ -1,0 +1,29 @@
+1. git init  (for inialtized git repository and create a .git folder that will store all the Git-related    files.)
+
+2. git status (This command shows the current state of your repository (which files are changed, staged, or    untracked)
+
+3. git add . (working file/code ko pass karta ha stages area ma)(changing krny k bd git add. use karo gy tu changing apply ho gi then commit karo       aur check kro)This command stages changes (adds them to the "staging    area") so that you can commit them.
+
+
+4. git commit (This command records your changes to the repository)
+
+5. git log (This command shows the commit history of your project)
+
+
+6. git config --global user.email ("you@example.com")
+7. git config --global user.name ("Your Name")
+
+8. ssh key
+  i. ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+  ii. eval "$(ssh-agent -s)"
+  iii. ssh-add ~/.ssh/id_rsa
+  iv. clip < ~/.ssh/id_rsa.pub ( for copy key)
+
+9. push to git repository
+
+
+
+
+
+
+ 
