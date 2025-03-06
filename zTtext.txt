@@ -3,6 +3,9 @@
 2. git status (This command shows the current state of your repository (which files are changed, staged, or    untracked)
 
 3. git add . (working file/code ko pass karta ha stages area ma)(changing krny k bd git add. use karo gy tu changing apply ho gi then commit karo       aur check kro)This command stages changes (adds them to the "staging    area") so that you can commit them.
+   3.1  add .   (stage, only new and modify file)aur jo delete ho gi hy un ko skip kr do, means un file ko na lo
+   3.2  add -A  (all file ko staged kr data hy)
+   3.3  add -u  (only modify and deleted files ko staged krta hy)and new files ko skip kr deta hy, means new files ko stage ni karta
 
 
 4. git commit (This command records your changes to the repository) git commit -m "jo commit kia hy"
@@ -30,9 +33,31 @@
 
 13. git diff filename (changes kon kon se hoi hy, wo batata hy)
 
+14. git diff --staged filename  (add . lagany sy file staged area ma chali jati hy, tu es stage area ma changing check krny k lia --staged likty hy)
+
+15. git reset filename (staged area sy wapis ajati hy file, means unstaged ho jati hy file)
+
+16. git checkout (return kr deta hy previou version of file) (files ko phely unstaged karo)(transfer 1 verion to another version)
+
+17. ls -la (use for checking directories, ky meray folder ma kon kon se files hy)
+
+18. git clone "repository ka address" (for cloning repository)
 
 
+19. touch .gitignore (used for to create a file .gitignore)
 
+20. git add .gitignore (used for adding .gitignore file )then
 
-
+21. git commit -m "add .gitignore, to ignore unnecessary file "
  
+22. git rm -r --cached filename  (if you’ve already committed some files that you now want to ignore (for example, if you've added venv/ to            .gitignore but venv/ was already tracked), you need to remove those files from version control:
+
+23. git commit -m "Remove virtual environment from version control"
+
+
+24. git branch (for checking branching jo present ho repository)
+
+    24.1  git branch "branch name" ( for creating new branching in repo)
+    24.2  git checkout "branch name"  ( for transfer new branch )
+
+
