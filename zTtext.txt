@@ -58,6 +58,6 @@
 24. git branch (for checking branching jo present ho repository)
 
     24.1  git branch "branch name" ( for creating new branching in repo)
-    24.2  git checkout "branch name"  ( for transfer new branch )
+    24.2  git checkout "branch name"  ( for transfer new branch, means one branch to another branch)
 
 
